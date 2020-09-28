@@ -5,12 +5,12 @@ apply plugin: 'kotlin-android'
 
 android {
 
-    compileSdkVersion 29
-    buildToolsVersion '29.0.2'  // adapt in .travis.yaml if changed here
+    compileSdkVersion 28
+    buildToolsVersion '27.0.2'  // adapt in .travis.yaml if changed here
 
     defaultConfig {
-        minSdkVersion 29
-        targetSdkVersion 29
+        minSdkVersion 26
+        targetSdkVersion 27
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         testInstrumentationRunnerArguments disableAnalytics: 'true'
     }

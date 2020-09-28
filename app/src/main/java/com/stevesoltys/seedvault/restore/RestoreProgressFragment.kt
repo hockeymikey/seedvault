@@ -1,6 +1,6 @@
 package com.stevesoltys.seedvault.restore
 
-import android.app.Activity.RESULT_OK
+import androidx.appcompat.app.AppCompatActivity.RESULT_OK
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
