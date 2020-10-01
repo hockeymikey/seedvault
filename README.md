@@ -1,5 +1,5 @@
 # Seedvault
-[![Build Status](https://ci.hockeymikey.com/buildStatus/icon?job=Seedvault)](https://ci.hockeymikey.com/job/Seedvault/)
+[![Build Status](https://ci.hockeymikey.com/buildStatus/icon?job=Seedvault&style=plastic)](https://ci.hockeymikey.com/job/Seedvault/)
 
 A backup application for the [Android Open Source Project](https://source.android.com/).
 
