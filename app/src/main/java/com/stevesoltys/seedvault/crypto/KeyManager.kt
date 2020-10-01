@@ -5,6 +5,7 @@ import android.security.keystore.KeyProperties.ENCRYPTION_PADDING_NONE
 import android.security.keystore.KeyProperties.PURPOSE_DECRYPT
 import android.security.keystore.KeyProperties.PURPOSE_ENCRYPT
 import android.security.keystore.KeyProtection
+import android.os.Build.VERSION.SDK_INT
 import java.security.KeyStore
 import java.security.KeyStore.SecretKeyEntry
 import javax.crypto.SecretKey
@@ -67,7 +68,7 @@ internal class KeyManagerImpl : KeyManager {
                 .setEncryptionPaddings(ENCRYPTION_PADDING_NONE)
                 .setRandomizedEncryptionRequired(true)
         // unlocking is required only for decryption, so when restoring from backup
-        builder.setUnlockedDeviceRequired(true)
+        if (SDK_INT >= 28) builder.setUnlockedDeviceRequired(true)
         return builder.build()
     }
 
