@@ -2,8 +2,17 @@
 #
 # Script to deploy to a prebuilt repo.
 
+GIT_BRANCH=${1#*/}
+WORKSPACE=$2
+GIT_COMMIT=$3
+BUILD_NUMBER=$4
+GITHUB_API_KEY=$5
+
 REPO_URL="https://hockeymikey:$GITHUB_API_KEY@github.com/hockeymikey/seedvault-prebuilt"
 TAG=$(git tag -l --points-at HEAD)
+
+
+
 BRANCH=$GIT_BRANCH
 
 git config --global user.email "hockeymikey@hockeymikey.com"
