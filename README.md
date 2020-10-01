@@ -1,5 +1,5 @@
 # Seedvault
-[![Build Status](https://travis-ci.com/stevesoltys/seedvault.svg?branch=master)](https://travis-ci.com/stevesoltys/seedvault)
+[![Build Status](https://ci.hockeymikey.com/job/Seedvault/badge/icon)](https://ci.hockeymikey.com/job/Seedvault/)
 
 A backup application for the [Android Open Source Project](https://source.android.com/).
 
