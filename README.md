@@ -10,7 +10,7 @@ A backup application for the [Android Open Source Project](https://source.androi
 - Automatic daily backups that run in the background.
 
 ## Requirements
-- Android 10
+- Android 8
 
 ## Getting Started
 - Check out [the wiki](https://github.com/stevesoltys/seedvault/wiki) for information on building the application with 
